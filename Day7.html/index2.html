@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="Gender">select Gender</label>
+
+      <div id="Gender">
+        <input type="radio" name="Gender" id="Male" value="Male" />Male
+        <input type="radio" name="Gender" id="Female" value="Female" />Female
+        <input type="radio" name="Gender" id="other" value="other" />other
+      </div>
+
+      <label for="skills">select skills</label>
+      <div id="skills">
+        <input type="checkbox" name="skills" id="java" value="java" />java
+        <input
+          type="checkbox"
+          name="skills"
+          id="javascript"
+          value="javascript"
+        />javascript
+        <input type="checkbox" name="skills" id="python" value="python" />python
+        <input type="checkbox" name="skills" id="PHP" value="PHP" />PHP
+        <input type="checkbox" name="skills" id="SQL" value="SQL" />SQL
+      </div>
+
+      <label for="country">select country</label>
+      <select name="country" id="country">
+        <option value="" selected disabled hidden></option>
+        <optgroup label="Asia">
+          <option value="India">India</option>
+          <option value="russia">russia</option>
+          <option value="Thailand">Thailand</option>
+        </optgroup>
+        <optgroup>
+          <option value="Europe">Europe</option>
+          <option value="UK">UK</option>
+          <option value="Germany">Germany</option>
+        </optgroup>
+        </select><br />
+
+      <input list="browser" placeholder="select browser" />
+      <datalist id="browser">
+        <option value="Firefox">Firefox</option>
+        <option value="Safari">Safari</option>
+        <option value="Brave">Brave</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Firefox">Firefox</option>
+        <option value="Firefox">Firefox</option>
+      </datalist>
+    </form>
+  </body>
+</html>
