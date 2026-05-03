@@ -1,0 +1,30 @@
+.demo:link {
+  color: black;
+}
+.demo:visited {
+  color: yellow;
+}
+.a1:hover {
+  color: red;
+}
+.a1:active {
+  color: brown;
+}
+/* .demo:active{
+    color: green;
+} */
+.demo:focus {
+  color: hotpink;
+}
+/* ul > li:first-child {
+    color: aqua;
+}
+ul > li:nth-child(3){
+    color: aqua;
+}
+ul > li:last-child{
+    color: aqua;
+} */
+ul > li:nth-child(even) {
+  color: blueviolet;
+}

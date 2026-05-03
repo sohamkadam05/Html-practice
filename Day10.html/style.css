@@ -1,0 +1,22 @@
+ul > li::marker {
+  color: brown;
+}
+.head::first-letter {
+  background: hotpink;
+}
+.para::first-line {
+  background: yellow;
+}
+.para::selection {
+  background: black;
+  color: white;
+}
+.heading2::before {
+  content: "Hello everyone";
+}
+.heading2::after {
+  content: "to web Tech";
+}
+.heading3::after {
+  content: " everyone";
+}
